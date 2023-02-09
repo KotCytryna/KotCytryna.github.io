@@ -10,4 +10,20 @@ body {
 }
 .wrapper {
     width: 400px;
+    border: 10px blue solid;
+    background-color: black;
+    color:white;
+}
+.calc-buttons-row {
+    border: 2px solid red;
+}
+
+.calc-buttons {
+    border: 1px solid green;
+}
+.screen {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 5px;
+    font-size: 40px;
 }
