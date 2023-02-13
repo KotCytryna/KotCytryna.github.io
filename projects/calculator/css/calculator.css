@@ -14,16 +14,47 @@ body {
     background-color: black;
     color:white;
 }
-.calc-buttons-row {
-    border: 2px solid red;
+.calc-button-row {
+    border: none;
+    display:flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    margin-bottom: 1%;
 }
 
-.calc-buttons {
-    border: 1px solid green;
+.calc-button {
+    background-color: #d8d9db;
+    color: black;
+    border: none;
+    font-size: 40px;
+    height: 100px;
+    flex-basis: 24%;
 }
 .screen {
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px 5px;
     font-size: 40px;
+}
+.calc-button:hover {
+    background-color: #bbbcbe;
+}
+.calc-button:active {
+    background-color: red;
+}
+.double {
+flex-basis: 49%;
+}
+.tripple {
+flex-basis: 74%;
+}
+.calc-button:last-child {
+    background-color: orange;
+    color: white;
+}
+.calc-button:last-child:hover {
+    background-color:#bbbcbe;
+}
+.calc-button:last-child:active {
+background-color: red;
 }
